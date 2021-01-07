@@ -1,7 +1,7 @@
 G.AddData({
 name:'Example mod',
 author:'Orteil',
-desc:'A simple example mod that adds hot peppers and hot sauce.',
+desc:'why not',
 engineVersion:1,
 manifest:'modManifest.js',
 requires:['Default dataset*'],
