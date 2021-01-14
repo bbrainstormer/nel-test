@@ -1,5 +1,5 @@
 G.AddData({
-name:'Example mod',
+name:'wut',
 author:'Orteil',
 desc:'why not',
 engineVersion:1,
