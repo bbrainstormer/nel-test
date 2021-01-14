@@ -3,7 +3,7 @@ name:'wut',
 author:'Orteil',
 desc:'why not',
 engineVersion:1,
-manifest:'modManifest.js',
+manifest:0,
 func:function()
 {
 	//Finally, we add a trait that amplifies the benefits of consuming hot sauce; it will take on average 20 years to appear once the conditions (knowing the "Hot sauce preparing" tech) is fulfilled.
