@@ -9,12 +9,11 @@ func:function()
 	//Finally, we add a trait that amplifies the benefits of consuming hot sauce; it will take on average 20 years to appear once the conditions (knowing the "Hot sauce preparing" tech) is fulfilled.
 	new G.Trait({
 		name:'test',
-		desc:'@your people appreciate [hot sauce] twice as much and will be twice as happy from consuming it.',
-		icon:[1,1,'spicySheet'],
+		desc:'Lots of food',
 		chance:0.1,
 		req:{'oral tradition':true},
 		effects:[
-			{type:'function',func:function(){G.gain('herb', 1000000, 'because');}},//this is a custom function executed when we gain the trait
+			{type:'function',func:function(){G.gain('cured meat', 1000000, 'because');}},//this is a custom function executed when we gain the trait
 		],
 	});
 	
