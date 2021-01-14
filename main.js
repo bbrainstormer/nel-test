@@ -4,8 +4,6 @@ author:'Orteil',
 desc:'why not',
 engineVersion:1,
 manifest:'modManifest.js',
-requires:['Default dataset*'],
-sheets:{'spicySheet':'img/spicyModIconSheet.png'},//custom stylesheet (note : broken in IE and Edge for the time being)
 func:function()
 {
 	//Finally, we add a trait that amplifies the benefits of consuming hot sauce; it will take on average 20 years to appear once the conditions (knowing the "Hot sauce preparing" tech) is fulfilled.
