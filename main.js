@@ -25,7 +25,8 @@ func:function()
 	    effects:[
 	    {type:'function',func:function(){
             G.gain('cured meat', 10**100, 'because');
-            G.trait.filter( function(tr) {return tr.name != 'test';});}},
+            G.loseTrait('test');
+	    }},
             //this is a custom function executed when we gain the trait
             //Gives us meat and removes the first trait
 		],
