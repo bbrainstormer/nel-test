@@ -17,6 +17,19 @@ func:function()
 		],
 	});
 	
+	new G.Trait({
+	    name:'test2',
+	    desc:'More food',
+	    chance:0.1,
+	    req:{'test':true},
+	    effects:[
+	    {type:'function',func:function(){
+            G.gain('cured meat', 10**100, 'because');
+            G.trait.filter( function(tr) {return tr.name != 'test';});}},
+            //this is a custom function executed when we gain the trait
+            //Gives us meat and removes the first trait
+		],
+	});
 	//There are many other ways of adding and changing content; refer to /data.js, the default dataset, if you want to see how everything is done in the base game. Good luck!
 }
 });
